@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .filmes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .filme {
+    margin: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .filme img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .filme h2 {
+    margin-top: 10px;
+  }
+  
+  .filme a {
+    text-decoration: none;
+    color: black;
+  }
+  
